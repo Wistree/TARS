@@ -19,150 +19,316 @@
 <body>
 
 
-    <!-- Main navigation -->
+    <!-- Navigation & Intro -->
     <header>
       <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-light white">
+      <nav class="navbar navbar-expand-lg navbar-light white fixed-top">
 
-          <!-- Navbar brand -->
-          <a class="navbar-brand" href="#"><img src="img/logotarshrzn.gif" height="70" class="d-inline-block align-top" alt="TARS"></a>
+          <div class="container">
+              <!-- Navbar brand -->
+            <a class="navbar-brand" href="#"><img src="img/logotarshrzn.gif" height="70" class="d-inline-block align-top" alt="TARS"></a>
 
-          <!-- Collapse button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Adopting a Pet</a>
+                            <a class="dropdown-item" href="#">Rehoming Your Pet</a>
+                            <a class="dropdown-item" href="#">Fostering a Pet</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+
+
+                </ul>
+                <!-- Links -->
+
+                      <ul class="navbar-nav ml-auto nav-flex-icons">
+                          <li class="nav-item">
+                              <a class="nav-link waves-effect waves-light">
+                                  <i class="fa fa-facebook"></i>
+                              </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link waves-effect waves-light">
+                                  <i class="fa fa-twitter"></i>
+                              </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link waves-effect waves-light">
+                                  <i class="fa fa-instagram"></i>
+                              </a>
+                          </li>
+                      </ul>
+            </div>
           <!-- Collapsible content -->
-          <div class="collapse navbar-collapse" id="basicExampleNav">
-
-              <!-- Links -->
-              <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="#">Home
-                          <span class="sr-only">(current)</span>
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
-                  </li>
-
-                  <!-- Dropdown -->
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                      <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Adopting a Pet</a>
-                          <a class="dropdown-item" href="#">Rehoming Your Pet</a>
-                          <a class="dropdown-item" href="#">Fostering a Pet</a>
-                      </div>
-                  </li>
-
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Testimonials</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Donations</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
-                  </li>
-
-
-
-              </ul>
-              <!-- Links -->
-
-                    <ul class="navbar-nav ml-auto nav-flex-icons">
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
           </div>
-          <!-- Collapsible content -->
 
       </nav>
       <!--/.Navbar-->
+
+      <!-- Intro -->
+      <div class="view jarallax mt-3" data-jarallax='{"speed": 0.2}'>
+          <div class="mask rgba-stylish-slight">
+              <div class="container flex-center text-center">
+                <div class="row mt-5">
+                  <div class="col-md-12 wow fadeIn mb-3">
+                    <h1 class="display-4 mb-2 wow fadeInDown" data-wow-delay="0.3s"><a class="white-text font-weight-bold">Fur Friends in Need</a></h1>
+                    <h4 class="text-uppercase mb-3 mt-1 font-weight-bold wow fadeIn" data-wow-delay="0.4s">The Animal Rehoming Service</h4>
+                    <a class="btn btn-amber btn-lg wow fadeIn" data-wow-delay="0.4s">see our pets</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      <!-- /.Intro -->
+
     </header>
-    <!-- Main navigation -->
+    <!-- /Main navigation -->
 
+    <!-- Main container -->
+    <div class="container-fluid">
 
+        <!-- Main layout -->
+        <main>
 
-    <!-- Main layout -->
-    <main>
+          <!-- First container -->
+          <div class="container">
 
-      <!-- Main container -->
-      <div class="container-fluid">
+            <!-- Section: About us -->
+            <section id="about" class="section pt-3 pb-5 mb-5">
 
-        <!-- Grid row -->
-        <div class="row">
+                    <!--Secion heading-->
+                    <h2 class="red-text text-center text-uppercase font-weight-bold mt-4 mb-5 py-5 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">About us</h2>
 
-            <div class="view">
-              <img src="img/lonely-dog.jpg" class="img-fluid" alt="The Animal Rehoming Service">
-                <div class="mask flex-center rgba-stylish-slight">
-                  <h1 class="white-text"><strong>THE ANIMAL REHOMING SERVICE</strong></h1>
+                    <!-- First row -->
+                    <div class="row wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+
+                        <!-- Place for photo -->
+                        <div class="col-lg-4 mb-2">
+                            <div class="view"> <img src="img/about-us.jpg" class="img-fluid z-depth-1" alt="">
+                                <div class="mask  rgba-brown-slight smooth-scroll flex-center">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Text content -->
+                        <div class="col-lg-7 offset-lg-1">
+                            <h5 class="font-weight-bold mb-3">The Animal Rehoming Service Inc. (TARS) is a Melbourne based registered charity which has found loving, permanent homes for over 1000 animals of every description, since it was established in 2000 by Michaela Newell.</h5>
+                            <br>
+                            <p align="justify"><span><strong>Our charter is: </strong></span></p>
+
+                            <ul>
+                              <li>
+                                <p align="justify"><span>To act as a contact and liaison point between people who want to rehome their animals and people who wish to adopt them. </span></p>
+                              </li>
+                              <li>
+                                <p align="justify"><span>To facilitate the provision of care and accommodation to genuinely homeless animals, by providing enriching foster homes, when available, whilst finding them suitable permanent homes. </span></p>
+                              </li><li>
+                                <p align="justify"><span>To provide veterinary care for homeless animals, if required, prior to placement in a suitable permanent home. All animals are desexed prior to rehoming, to curb the exponential growth of unwanted animals in Victoria. When necessary, smaller vet expenses such as desexing and vaccinations are covered by the new owner, but larger vet fees are paid for via fundraising. </span></p>
+                              </li><li>
+                                <p align="justify"><span>To provide ongoing support and advice to those adopting, for the life of their new pet. </span></p>
+                              </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- /.First row -->
+
+            </section>
+            <!-- /.Section: About us -->
+          </div>
+          <!-- ./First container -->
+
+          <!-- streak -->
+            <div class="streak streak-photo streak-md" style="background-image:url('img/furry-dog.jpg')">
+                <div class="flex-center rgba-indigo-light mask">
+                    <div class="white-text smooth-scroll mx-4">
+                        <h2 class="h2-responsive mb-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">You can't buy LOVE ... But you can rescue it</h2>
+                        <div class="text-center">
+                            <a href="#contact" class="btn btn-outline-white wow fadeIn waves-effect waves-light" data-offset="100" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Contact us</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- /.streak -->
 
-        </div>
-        <!-- Grid row -->
+          <!-- First Container -->
+          <div class="container">
 
-        <!-- Grid row -->
-        <div class="row red">
-          <br>
-          <br>
-              <!-- Grid column -->
-              <div class="col-md-12">
+            <!-- Section: services -->
+            <section id="services" class="section my-5 pb-4">
 
+                    <!--Secion heading-->
+                    <h2 class="red-text text-center text-uppercase font-weight-bold mt-4 mb-5 pt-5 pb-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Our services</h2>
+
+                    <div class="row features-small wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+
+                        <!--First column-->
+                        <div class="col-md-4">
+
+                            <!--First row-->
+                            <div class="row mb-4">
+                                <div class="col-2">
+                                    <i class="fa fa-group fa-2x mb-1 red-text" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-10 mb-2">
+                                    <h5 class="feature-title font-weight-bold mb-2">| Adopting a Pet</h5>
+                                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                </div>
+                            </div>
+                            <!--/First row-->
+
+                        </div>
+                        <!--/First column-->
+
+                        <!--Second column-->
+                        <div class="col-md-4">
+
+                            <!--First row-->
+                            <div class="row mb-4">
+                                <div class="col-2">
+                                    <i class="fa fa-car fa-2x mb-1 red-text" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-10 mb-2">
+                                    <h5 class="feature-title font-weight-bold mb-2">| Rehoming Your Pet</h5>
+                                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                </div>
+                            </div>
+                            <!--/First row-->
+
+                        </div>
+                        <!--/Second column-->
+
+                        <!--Third column-->
+                        <div class="col-md-4">
+
+                            <!--First row-->
+                            <div class="row mb-4">
+                                <div class="col-2">
+                                    <i class="fa fa-bank fa-2x mb-1 red-text" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-10 mb-2">
+                                     <h5 class="feature-title font-weight-bold mb-2">| Fostering a Pet</h5>
+                                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                </div>
+                            </div>
+                            <!--/First row-->
+
+                        </div>
+                        <!--/Third column-->
+
+                    </div>
+                    <!--/First row-->
+
+            </section>
+            <!-- /Section: services -->
+          </div>
+          <!-- /First Container -->
+
+        </main>
+        <!-- /Main layout -->
+
+
+
+        <!-- Footer -->
+        <footer class="page-footer font-small red pt-4 mt-0">
+
+          <div class="container mb-4">
+
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+
+              <!-- Grid row -->
+              <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                  <!-- Content -->
+                  <h5 class="text-uppercase">The Animal Rehoming Service</h5>
+                  <p>Here you can use rows and columns here to organize your footer content.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mb-md-0 mb-3">
+
+                  <!-- Links -->
+                  <h5 class="text-uppercase">Links</h5>
+
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!">Link 1</a>
+                    </li>
+                    <li>
+                      <a href="#!">Link 2</a>
+                    </li>
+                    <li>
+                      <a href="#!">Link 3</a>
+                    </li>
+                    <li>
+                      <a href="#!">Link 4</a>
+                    </li>
+                  </ul>
+
+                </div>
+                <!-- Grid column -->
 
               </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-lg-4 col-md-12">
-
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-lg-4 col-md-6">
-
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-lg-4 col-md-6">
-
-              </div>
-              <!-- Grid column -->
+              <!-- Grid row -->
 
             </div>
-        <!-- Grid row -->
+            <!-- Footer Links -->
+
+          </div>
+
+           <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+              <a href="http://www.tars.org.au/"> The Animal Rehoming Service</a>
+            </div>
+            <!-- Copyright -->
 
 
-      </div>
-      <!-- Main container
+        </footer>
+        <!-- Footer -->
 
-
-    </main>
-    <!-- Main layout -->
-
-    <!-- footer -->
-    <footer>
-
-    </footer>
-    <!-- footer -->
+    </div>
+    <!-- /Main container -->
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
